@@ -21,3 +21,6 @@ tasks.withType<KotlinCompile> {
 application {
     mainClass.set("MainKt")
 }
+dependencies {
+    implementation(kotlin("script-runtime"))
+}
