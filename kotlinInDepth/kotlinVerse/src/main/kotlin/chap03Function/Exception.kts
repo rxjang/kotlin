@@ -26,7 +26,7 @@ fun readInt(default: Int): Int {
     }
 }
 
-fun readInt(default: Int) = try {
+fun readInt2(default: Int) = try {
     readLine()!!.toInt()
 } finally {
     println("Error")
