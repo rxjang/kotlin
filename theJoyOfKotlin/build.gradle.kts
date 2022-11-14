@@ -32,6 +32,7 @@ dependencies {
     testImplementation("org.jetbrains.kotlin:kotlin-test")
     testImplementation("io.kotlintest:kotlintest-runner-junit5:3.4.2")
     testImplementation("org.slf4j:slf4j-nop:2.0.3")
+    implementation(kotlin("script-runtime"))
 }
 
 tasks.withType<KotlinCompile> {
